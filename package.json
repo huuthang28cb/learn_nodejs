@@ -1,0 +1,29 @@
+{
+  "name": "learn_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start":"nodemon --inspect app.js",
+    "test": "thang nodejs learn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huuthang28cb/learn_nodejs.git"
+  },
+  "keywords": [
+    "learnnodejs"
+  ],
+  "author": "thang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huuthang28cb/learn_nodejs/issues"
+  },
+  "homepage": "https://github.com/huuthang28cb/learn_nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
