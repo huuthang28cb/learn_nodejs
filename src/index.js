@@ -20,13 +20,13 @@ app.use(morgan('combined'));
 app.engine('hbs', handlebars({
   extname: '.hbs'
 }));
-app.set('view engine', 'hbs');
+          app.set('view engine', 'hbs');
 // Views and view engine
-app.set('views', path.join(__dirname, '/reasource/views'));
+app.set('           views', path.join(__dirname, '/reasource/views'));
 
 //Route init
 route(app);
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+                  .log(`Example app listening at http://localhost:${port}`)
 })
