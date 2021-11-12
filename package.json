@@ -4,7 +4,7 @@
     "description": "",
     "main": "src/index.js",
     "scripts": {
-        "beautiful": "lint-staged",
+        "beautiful":"lint-staged",
         "start": "nodemon --inspect src/index.js",
         "watch": "sass --watch src/reasource/scss/ --output src/public/css/",
         "test": "thang nodejs learn"

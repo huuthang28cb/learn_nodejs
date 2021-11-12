@@ -20,7 +20,7 @@ app.use(morgan('combined'));
 app.engine('hbs', handlebars({
 extname: '.hbs'
 }));
-        app.set('view engine', 'hbs');
+        app.set("view engine", 'hbs');
 // Views and view engine
 app.set('           views', path.join(__dirname, '/reasource/views'));
 
