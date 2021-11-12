@@ -18,7 +18,7 @@ app.use(morgan('combined'));
 
 //Template engine
 app.engine('hbs', handlebars({
-  extname: '.hbs'
+extname: '.hbs'
 }));
         app.set('view engine', 'hbs');
 // Views and view engine
